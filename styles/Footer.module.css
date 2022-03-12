@@ -45,6 +45,9 @@
 .text{
 
     color: lightgray;
+    
+    
+    
 }
 
 .motto{
@@ -52,4 +55,6 @@
     font-size: 30px;
 
     color: rgba(211, 211, 211, 211);
+
+    font-family: 'Cormorant Upright';
 }

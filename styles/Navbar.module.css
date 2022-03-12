@@ -128,11 +128,17 @@
     position: relative;
 
     
+
+    
 }
 .icon{
 
 
     border-radius: 50%;
+
+    width: 100px;
+
+    height: 100px;
    
 
     
@@ -141,12 +147,13 @@
 
 
     position: absolute;
+    margin: 10px;
 
-    top: 0;
+    top: -0;
 
-    right: -1;
+    right: -0;
 
-    
+    background-color: teal;
 
     border-radius: 50%;
 
@@ -155,6 +162,9 @@
 
     font-size: 20px;
     
+    height: 30px;
+
+    width: 30px;
 
     padding: 3px;
 
