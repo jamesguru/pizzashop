@@ -1,0 +1,56 @@
+.container{
+
+
+    height: calc(100vh - 100px);
+
+    background-color: #d1411e;
+
+    display: flex;
+}
+
+.heading{
+
+
+    flex:1;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 70px;
+
+    padding: 100px;
+
+    font-family: 'Cormorant Upright';
+
+    font-weight: 700;
+
+    
+}
+
+.image{
+
+    flex: 1;
+
+    align-items: flex-start;
+
+    padding-right: 20px;
+
+    transition: all 1.5s ease ;
+
+    cursor: pointer;
+}
+
+.image:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+
+

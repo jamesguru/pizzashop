@@ -1,0 +1,168 @@
+.container{
+
+    padding-top: 0px 50px;
+
+    height: 100px;
+
+    background-color: #d1411e;
+
+    align-items: center;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+.item{
+
+    flex: 1;
+
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+.item:last-child{
+
+   
+
+    justify-content: flex-end;
+
+    padding: 20px;
+
+    
+}
+
+.callButton{
+
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    padding:10px;
+
+    width: 70px;
+
+    height: 70px;
+
+    margin-left: 30px;
+
+    margin-right: 10px;
+}
+
+.texts{
+
+    color: white;
+
+    margin: 20px;
+}
+
+.text:first-child{
+
+    font-size: 22px;
+
+    font-weight: 900;
+
+    
+}
+
+.text:last-child{
+
+    font-size: 30px;
+
+    font-weight: 700;
+    font-family: 'Cormorant Upright', serif;
+}
+
+
+.list{
+
+    padding: 30;
+
+    display: flex;
+
+    align-items: center;
+
+    list-style: none;
+
+    color: white;
+}
+
+.listItem{
+
+    margin: 20px;
+
+    font-weight: 500;
+
+    font-family: 'Cormorant Upright';
+
+    font-size: 20px;
+
+    transition: all 1s ease;
+
+    
+}
+
+.listItem:hover{
+
+
+    color: #AAAAAA;
+
+    cursor: pointer;
+
+    text-decoration-line: underline ;
+}
+
+
+.cart{
+
+    position: relative;
+
+    
+}
+.icon{
+
+
+    border-radius: 50%;
+   
+
+    
+}
+.counter{
+
+
+    position: absolute;
+
+    top: 0;
+
+    right: -1;
+
+    
+
+    border-radius: 50%;
+
+    
+    font-weight: 900;
+
+    font-size: 20px;
+    
+
+    padding: 3px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color:white;
+}
