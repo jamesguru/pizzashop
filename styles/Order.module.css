@@ -1,0 +1,175 @@
+.container{
+
+
+    padding: 50px;
+
+    display: flex;
+
+
+}
+
+.left{
+
+    flex: 2;
+}
+
+.table{
+
+    width: 100%;
+
+    text-align: left;
+
+    margin-bottom: 50px;
+}
+
+.row:last-child{
+
+    width: 95%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+    font-weight: 700;
+
+    font-family: 'Cormorant Upright';
+
+
+    font-size: 20px;
+
+}
+
+.done{
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    color: #d1411e;
+
+
+
+}
+
+
+.inProgress{
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+    animation: inProgress 1.5s ease infinite alternate;
+
+
+}
+
+.undone .checkedIcon, .inProgress .checkedIcon{
+
+
+    display: none;
+}
+
+
+@keyframes inProgress{
+
+
+    from{
+
+        opacity: 0;
+
+       
+    }
+
+
+    to{
+
+        opacity: 1;
+
+        
+    }
+
+
+}
+
+
+.undone{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+
+ opacity: 0.3;
+
+
+
+}
+.right{
+
+    flex: 1;
+}
+
+.wrapper{
+
+    width: 90%;
+
+    max-height: 300px;
+
+    background-color: #333;
+
+    padding: 50px;
+
+    padding-top: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    color: white;
+}
+
+.totalTextTitle{
+
+    margin: 10px;
+
+    
+
+
+
+}
+
+.button{
+
+    height: 30px;
+
+    color:teal;
+
+    border: none;
+
+    font-weight: 900;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    background-color: white;
+
+    cursor: not-allowed;
+
+
+    font-family: 'Cormorant Upright';
+}

@@ -20,7 +20,7 @@ const Featured = () => {
             <div className={styles.image}>
 
 
-                <Image src="/img/pizza2.png" alt="" height="700px" width="700px" objectFit="contain" />
+                <Image src="/img/pizza4.png" alt="" height="500px" width="500px" objectFit="contain" />
 
 
             </div>
